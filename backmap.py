@@ -160,9 +160,9 @@ def backmap_to_gromacs(cg_gro_file, mapping_file, output_gro, output_itp, output
 
 if __name__ == "__main__":
     backmap_to_gromacs(
-        "micelle/step5.2_production_pull_final_now.gro",
-        "mapping_noh.json",
-        "micelle/backmapped_v6_noh.gro",
-        "micelle/topology_v6_noh.itp",
-        "micelle/backmapped_v6_noh.pdb"
+        "micelle/micelle_MARTINI.gro",   # input: initial MARTINI configuration
+        "mapping_noh.json",              # input: mapping file
+        "micelle/backmapped_noh.gro",    # output: backmapped Gromacs gro file
+        "micelle/topology_noh.itp",      # output: Gromacs topology
+        "micelle/backmapped_noh.pdb"     # output: backmapped pdb
     )
