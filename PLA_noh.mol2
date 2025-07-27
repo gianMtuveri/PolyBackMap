@@ -1,0 +1,20 @@
+@<TRIPOS>MOLECULE
+PLA_noh.pdb
+5 4 1 0 0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OD         25.5830    0.1780    0.4150 O.co2     1 LACT    0.0000
+      2 C1         26.7880    0.6450   -0.1940 C.2       1 LACT    0.0000
+      3 O2         26.8830    1.7100   -0.8120 O.co2     1 LACT    0.0000
+      4 C2         28.0170   -0.4310    0.0690 C.3       1 LACT    0.0000
+      5 C3         27.7960   -1.8280   -0.7940 C.3       1 LACT    0.0000
+@<TRIPOS>BOND
+     1    1    2 2
+     2    2    3 2
+     3    2    4 1
+     4    4    5 1
+@<TRIPOS>SUBSTRUCTURE
+     1 LACT     1 RESIDUE           4 A     LACT     0 ROOT

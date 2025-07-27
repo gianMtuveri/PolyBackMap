@@ -1,0 +1,16 @@
+@<TRIPOS>MOLECULE
+PEO_noh.pdb
+3 2 1 0 0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 O1        -79.5750   -0.0990    0.0300 O.3       1 ETHO    0.0000
+      2 C1        -78.2470    0.5970    0.0030 C.3       1 ETHO    0.0000
+      3 C2        -77.0200   -0.5100   -0.0190 C.3       1 ETHO    0.0000
+@<TRIPOS>BOND
+     1    1    2 1
+     2    2    3 1
+@<TRIPOS>SUBSTRUCTURE
+     1 ETHO     1 RESIDUE           4 X     ETHO     0 ROOT

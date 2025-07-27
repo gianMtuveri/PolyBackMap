@@ -1,0 +1,12 @@
+{
+  "EO": {
+    "fragment_file": "PEO_noh.mol2",
+    "resname": "PEO",
+    "atom_names": ["O1", "C1", "C2"]
+  },
+  "C3": {
+    "fragment_file": "PLA_noh.mol2",
+    "resname": "PLA",
+    "atom_names": ["OD", "C1", "O2", "C2", "C3"]
+  }
+}
